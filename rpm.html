@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Corner Advisory</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!---use for icon-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+    <!-- Bootstrap Font Icon CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="assest/css/style.css">
+    <link rel="stylesheet" href="assest/css/product.css">
+</head>
+
+<body>
+    <!-----Top Head Section Start-->
+    <div class="tophead">
+        <div class="container">
+            <div class="row">
+                <div class="col-10 mx-auto"><!-----mx means margin left and right(x means left nd right margin) --->
+                    <div class="backgroundhead">
+                        <div class="row text-center">
+                            <div class="col-3"><!---ul>li*5>a---->
+                                <ul class="list-unstyled d-flex justify-content-evenly">
+                                    <!---list-unstyled use for remove list type (dots), d-flex use for display same line, justify-content-evenly use for space betwwen icon-->
+                                    <li><a href="javascript:void()" style="color:#1c751d"><i
+                                                class="fa-brands fa-facebook"></i></a></li>
+                                    <!---at a time href write karnekeliye alt press and click on href space-->
+                                    <li><a href="javascript:void()" style="color:#1c751d"><i
+                                                class="fa-brands fa-twitter"></i></a></li>
+                                    <li><a href="javascript:void()" style="color:#1c751d"><i
+                                                class="fa-brands fa-instagram"></i></a></li>
+                                    <li><a href="javascript:void()" style="color:#1c751d"><i
+                                                class="fa-brands fa-youtube"></i></a></li>
+                                    <li><a href="javascript:void()" style="color:#1c751d"><i
+                                                class="fa-solid fa-envelope"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="col-6">
+                                <ul class="list-unstyled d-flex justify-content-evenly">
+                                    <li><a href="javascript:void()" class="text-decoration-none" style="color: #444;"><i
+                                                class="fa-solid fa-phone" style="color:#1c751d"></i>+919022618671</a>
+                                    </li>
+                                    <li><a href="javascript:void()" class="text-decoration-none" style="color: #444;"><i
+                                                class="fa-brands fa-whatsapp"
+                                                style="color:#1c751d"></i>+919405530254</a></li>
+                                    <li><a href="javascript:void()" class="text-decoration-none" style="color: #444;"><i
+                                                class="fa-solid fa-envelope"
+                                                style="color:#1c751d"></i>komsy0104@gmail.com</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-3">
+                                <ul class="list-unstyled d-flex justify-content-evenly align-items-center">
+                                    <li style="padding-left: 30px;"><a href="javascript:void()"
+                                            class="btn btn-success pt-1">Sign up</a></li>
+                                    <li style="padding-right: 10px;"><a href="javascript:void()"
+                                            class="btn btn-secondary pt-1">Login</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-----Top Head Section End-->
+
+    <!-----navigation Section Start-->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="assest/img/logo.png" alt="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link text-light active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="research.html">Research</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="products.html">Products</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link text-light dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            More
+                            <!-- <i class="bi bi-chevron-down"></i> -->
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="service.html">Services</a></li>
+                            <li><a class="dropdown-item" href="kyc.html">KYC Form</a></li>
+                            <li><a class="dropdown-item" href="rpm.html">RPM</a></li>
+                            <li><a class="dropdown-item" href="complaint.html">Complaints</a></li>
+                            <li><a class="dropdown-item" href="bankdetails.html">Bank Details</a></li>
+                            <li><a class="dropdown-item" href="careers.html">Careers</a></li>
+                            <li><a class="dropdown-item" href="faq.html">FAQs</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link BD btn btn-success text-white" href="#exampleModal"
+                            data-bs-toggle="modal">Book Demo</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-----navigation Section End-->
+
+    <!-- Model Section Start -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"
+    data-aos="fade-down-right">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content modal-lg">
+            <div class="titlemodal">
+                <h5 class="text-uppercase text-center py-2">book a demo now</h5>
+                <h6 class="ms-3">Experience Green Corner Advisory products with a personalized demo</h6>
+                <p class="ms-3">Fill in your details below and we will contact you for a personalized presentation
+                    at
+                    a time and venue convenient to you.</p>
+                <p class="ms-3">Alternatively you can call on +919122442032 to speak to a sales specialist now. The
+                    demos are not charged.</p>
+            </div>
+            <div class="modal-body">
+                <div class="demo-box">
+                    <form class="row g-3">
+                        <div class="col-10">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="user-box">
+                                        <input type="text" class="form-control ms-3" id="validationDefault01"
+                                            value="" required>
+                                        <label for="validationDefault01" class="form-label ms-3">Name</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="user-box">
+                                        <input type="text" class="form-control ms-3" id="validationDefault02"
+                                            value="" required>
+                                        <label for="validationDefault02" class="form-label ms-3">Mobile
+                                            Number</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="user-box">
+                                        <input type="text" class="form-control me-3" id="validationDefaultUsername"
+                                            aria-describedby="inputGroupPrepend2" required>
+                                        <label for="validationDefaultUsername" class="form-label me-3">City</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="user-box">
+                                        <input type="text" class="form-control ms-3" id="validationDefault03"
+                                            required>
+                                        <label for="validationDefault03" class="form-label ms-3">State</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="user-box">
+                                        <input type="text" class="form-control ms-3" id="validationDefault05"
+                                            required>
+                                        <label for="validationDefault05" class="form-label ms-3">Pincode</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="user-box">
+                                        <select class="form-select me-3 rounded-pill" id="validationDefault04"
+                                            required>
+                                            <option selected disabled value="" class="rounded-pill">Category
+                                            </option>
+                                            <option>EQUITY CASH</option>
+                                            <option>EQUITY FUTURE</option>
+                                            <option>EQUITY OPTION</option>
+                                            <option>MCX</option>
+                                            <option>MCX BULLIONS</option>
+                                            <option>MCX METALS</option>
+                                            <option>MCX ENERGY</option>
+                                            <option>INDEX</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-check">
+                                <label class="form-check-label" for="invalidCheck2">
+                                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck2"
+                                        required>
+                                    By signing up you agree to being contact by Green Corner Advisory through sms,
+                                    email or whatsapp. Any information you give us is held with the utmost care and
+                                    security. Trade
+                                    Show Advisory does not sell, rent or loan any identifiable information of
+                                    customers
+                                    or
+                                    prospects to any third party.
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <!-- <button class="btn btn-primary" type="submit">Submit form</button> -->
+                            <button type="submit" fdprocessedid="98n5a">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                Submit
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!-- <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div> -->
+        </div>
+    </div>
+    </div>
+    <!-- Model Section End -->
+
+    <!----Banner Section Start-->
+    <div class="banner">
+        <img src="assest/img/Banner_Risk.jpg" alt="Product Banner" class="w-100">
+        <ol class="list-inline position-absolute translate-middle top-50 start-50 mt-4">
+            <li class="list-inline-item"><a href="index.html" class="text-light text-decoration-none">Home /</a></li>
+            <li class="list-inline-item"><a href="javascript:void(0)" class=" text-white text-decoration-none">RPM</a>
+            </li>
+        </ol>
+    </div>
+    <!----Banner Section End-->
+
+    <!----Risk Section Start-->
+    <div class="complaint py-4">
+        <div class="container">
+            <div class="section-title py-4 text-center pb-30">
+                <!-- <h5 class="text-success text-center">Clients</h5> -->
+                <h4 class="text-center text-uppercase">Risk Profile Management</h4>
+                <div class="border-bottom border-success border-2" style="width:50px; margin:auto;"></div>
+            </div>
+            <div class="row py-3">
+                <p class="fs-12 font-weight-light">
+                    The questionnaire returns a score on the basis of which clients fall in either of the category
+                    mentioned below.
+                    This assessment is made solely on the basis of the financial situation of the client and the answers
+                    selected by
+                    him / her.
+                </p>
+                <h4 class="font-weight-normal">Risk assessment and product Recommendations</h4>
+                <p class="fs-12 font-weight-light">
+                    The maximum total is 70, if client scores less than 25 he is a low risk appetite client, if client
+                    scores
+                    between 25-44, he is a medium risk appetite client and if scores above 45 he is high risk appetite
+                    client.
+                </p>
+                <p class="fs-12 font-weight-light">
+                    Low risk appetite client will not be offered any services.
+                </p>
+                <h4 class="font-weight-normal">Risk Based Classification of the Services</h4>
+                <table id="complainttable" class="table border border-collapse">
+                    <tr>
+                        <th>Sl.No</th>
+                        <th>PRODUCT</th>
+                        <th>RANGE</th>
+                        <th>RISK CLASSIFICATION</th>
+                    </tr>
+                    <tr class="text-center">
+                        <td>1</td>
+                        <td>All Normal Plans</td>
+                        <td>0-18</td>
+                        <td>Low</td>
+                    </tr>
+                    <tr class="text-center">
+                        <td>2</td>
+                        <td>All Normal Plus & Premium Plans</td>
+                        <td>19-36</td>
+                        <td>Medium</td>
+                    </tr>
+                    <tr class="text-center">
+                        <td>3</td>
+                        <td>All Premium & Premium HNI Plans</td>
+                        <td>37-57</td>
+                        <td>Moderate</td>
+                    </tr>
+                    <tr class="text-center">
+                        <td>4</td>
+                        <td>All Premium & Premium HNI Plans</td>
+                        <td>>57</td>
+                        <td>High</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <!----Risk Section End-->
+
+    <!----Invesment Section Start-->
+    <div class="kyc py-4">
+        <div class="container">
+            <div class="section-title py-4 text-center pb-30">
+                <!-- <h5 class="text-success text-center">Clients</h5> -->
+                <h4 class="text-center text-uppercase">indentifying your invesment profile</h4>
+                <div class="border-bottom border-success border-2" style="width:50px; margin:auto;"></div>
+            </div>
+            <div class="row">
+                <div class="KBlock">
+                    <form action="#" method="post" role="form" class="kyc-form">
+                        <h4 class="pt-4 ms-4">IDENTITY DETAILS</h4>
+                        <div class="row mx-auto">
+                            <div class="col-md-6 mt-2">
+                                <div class="form-group">
+                                    <input type="text" name="cname" class="form-control" id="cname"
+                                        placeholder="Your Name" required>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mt-2">
+                                <div class="form-group">
+                                    <input type="email" class="form-control" name="cemail" id="cemail"
+                                        placeholder="Your Email" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mx-auto">
+                            <fieldset id="controls">
+                                <div class="row fs-11">
+                                    <div class="form-group col-md-6 mt-2">
+                                        <p>1. What is your Age Group?<br>
+                                            <!-- <label class="labelc">18 to 25 Years
+                                          <input type="radio" name="age" id="18 to 25" value="18 to 25">
+                                          <span class="radiobutton"></span>
+                                        </label>
+                                        <label class="labelc">26 to 35 Years
+                                          <input type="radio" name="age" id="26 to 35" value="26 to 35">
+                                          <span class="radiobutton"></span>
+                                        </label>
+                  
+                                        <label class="labelc">36 to 45 Years
+                                          <input type="radio" name="age" id="36 to 45" value="36 to 45">
+                                          <span class="radiobutton"></span>
+                                        </label>
+                  
+                                        <label class="labelc">Above 46 Years
+                                          <input type="radio" name="age" id="Above 46" value="Above 46">
+                                          <span class="radiobutton"></span>
+                                        </label> -->
+                                        </p>
+                                    </div>
+                                    <div class="form-group col-md-6 mt-2">
+                                        <p>2. What is your income source?<br>
+                                            <!-- <label class="labelc">Multiple Business
+                                          <input type="radio" name="income" id="Multiple" value="Multiple">
+                                          <span class="radiobutton"></span>
+                                        </label>                                    
+                                        <label class="labelc">Single Business
+                                          <input type="radio" name="income" id="Single" value="Single">
+                                          <span class="radiobutton"></span>
+                                        </label>                 
+                                        <label class="labelc">Self Professional/Salaried
+                                          <input type="radio" name="income" id="Self" value="Self">
+                                          <span class="radiobutton"></span>
+                                        </label>                 
+                                        <label class="labelc">Retried /House Wife/Student
+                                          <input type="radio" name="income" id="Retried" value="Retried">
+                                          <span class="radiobutton"></span>
+                                        </label>                   -->
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="form-group col-md-6 mt-2">
+                                        <p>3. How many financially dependent persons you have? <br></p>
+                                    </div>
+                                    <div class="form-group col-md-6 mt-2">
+                                        <p>4. What is your income range per annum ? </p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="form-group col-md-6 mt-2">
+                                        <p>5. What is your total asset value ? </p>
+                                    </div>
+                                    <div class="form-group col-md-6 mt-2">
+                                        <p>6. What is your total liability value ? </p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="form-group col-md-6 mt-2">
+                                        <p>7. What is your investment capital ? </p>
+                                    </div>
+                                    <div class="form-group col-md-6 mt-2">
+                                        <p>8. What percentage of monthly income is allocated to all EMI ? </p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="form-group col-md-6 mt-2">
+                                        <p>9. Which investment avenue you are quite experienced with ? </p>
+                                    </div>
+                                    <div class="form-group col-md-6 mt-2">
+                                        <p>10. Have you planned for expenses like child’s higher education, marriage,
+                                            purchase of house,
+                                            medical, hospitalization, retirement etc.? </p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="form-group col-md-6 mt-2">
+                                        <p>11. What is your investment horizon and when do you want to start withdrawing
+                                            the money from your
+                                            portfolio ? </p>
+                                    </div>
+                                    <div class="form-group col-md-6 mt-2">
+                                        <p>12. What is your experience with investment in stock market &/or commodity
+                                            market ? </p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="form-group col-md-6 mt-2">
+                                        <p>13. What would you do if your investment amount is making loss ? </p>
+                                    </div>
+                                    <div class="form-group col-md-6 mt-2">
+                                        <p>14. Which of the following best describes you as an investor? </p>
+                                    </div>
+                                </div>
+                                <p>
+                                    <button type="button" name="Calculate" id="calculate" value="Calculate"
+                                        class="mb-3">CALCULATE</button>
+                                </p>
+                                <hr>
+                                <h4>APPLICANT DECLARATION</h4>
+                                <div class="form-check mt-3">
+                                    <label class="form-check-label" for="invalidCheck2">
+                                        <input class="form-check-input" type="checkbox" id="invalidCheck2"
+                                            value="I hereby declare that the details furnished above are true and correct to the best of my knowledge and belief."
+                                            required>
+                                        I hereby declare that the details furnished above are true and correct to
+                                        the
+                                        best of my knowledge and belief and I undertake to inform you of any changes
+                                        therein, immediately. In case any of
+                                        the above information is found to be false or untrue or misleading or
+                                        misrepresenting, I am aware that I may be held liable
+                                        for it. I hereby declare that I am not making this application for the
+                                        purpose of contravention of any Act,
+                                        Rules, Regulations or any statute of legislation or any
+                                        notifications/directions issued by any governmental or
+                                        statutory authority from time to time.
+                                        <span class="checkmark mt-10"></span>
+                                    </label>
+                                </div>
+                                <div class="col-12 text-center mt-2 mb-4">
+                                    <button class="btn btn-primary text-uppercase" type="submit">Submit</button>
+                                </div>
+                            </fieldset>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----Invesment Section End-->
+
+    <!--Clients Section Start-->
+    <div class="clients py-3">
+        <div class="container">
+            <div class="section-title py-4">
+                <h5 class="text-success text-center">Clients</h5>
+                <h4 class="text-center">THEY TRUSTED US</h4>
+                <div class="border-bottom border-success border-2" style="width:50px; margin:auto;"></div>
+            </div>
+            <div class="row py-2">
+                <div id="carouselExampleSlidesOnly" class="carousel slide py-2" data-bs-ride="carousel">
+                    <div class="carousel-inner py-4">
+                        <div class="carousel-item active py-2">
+                            <!-- <img src="..." class="d-block w-100" alt="..."> -->
+                            <div class="blockcarousel col-lg-10 mx-auto text-center py-5 rounded-4 position-relative">
+                                <!-- <i class="bg-secondary rounded-circle py-4 px-4 position-absolute start-50 top-0 translate-middle">icon</i> -->
+                                <img src="assest/img/testimonials1a.jpg" alt="testim" width="70" height="70"
+                                    class="rounded-circle shadow p-1 position-absolute start-50 top-0 translate-middle">
+                                <p>"They took the time to understand my needs and then provided me with several
+                                    options
+                                    that ensured all
+                                    my needs <br>were met.The ongoing communication and quality of service is superb
+                                    and
+                                    at
+                                    a level rarely seen or experienced these <br>days in the market."</p>
+                                <div class="cc carousel-caption text-black text-center">
+                                    <h5 class="pt-1" style="color: #1c751d; font-size: 15px;">PRASHANT</h5>
+                                    <h6 class="pb-3" style="font-size: 13px;"><i class="fa fa-map-location"></i> NEW
+                                        DELHI</h6>
+                                    <!-- <p class="pt-0">New Delhi</p> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item py-2">
+                            <!-- <img src="..." class="d-block w-100" alt="..."> -->
+                            <div class="blockcarousel col-lg-10 mx-auto text-center py-5 rounded-4 position-relative">
+                                <!-- <i class="bg-secondary rounded-circle py-4 px-4 position-absolute start-50 top-0 translate-middle">icon</i> -->
+                                <img src="assest/img/testimonials1a.jpg" alt="testim" width="70" height="70"
+                                    class="rounded-circle shadow p-1 position-absolute start-50 top-0 translate-middle">
+                                <p>"I am a beginner in this trading and investment world, but the way these guys
+                                    have
+                                    helped me in my learning and <br>providing the best research calls is
+                                    extraordinary.
+                                    Got a good profit in less time, I have recommended this company to <br>my
+                                    friends
+                                    as well."</p>
+                                <div class="cc carousel-caption text-black text-center">
+                                    <h5 class="pt-1" style="color: #1c751d; font-size: 15px;">PRASHANT</h5>
+                                    <h6 class="pb-3" style="font-size: 13px;"><i class="fa fa-map-location"></i> NEW
+                                        DELHI</h6>
+                                    <!-- <p class="pt-0">New Delhi</p> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item py-2">
+                            <!-- <img src="..." class="d-block w-100" alt="..."> -->
+                            <div class="blockcarousel col-lg-10 mx-auto text-center py-5 rounded-4 position-relative">
+                                <!-- <i class="bg-secondary rounded-circle py-4 px-4 position-absolute start-50 top-0 translate-middle">icon</i> -->
+                                <img src="assest/img/testimonials1a.jpg" alt="testim" width="70" height="70"
+                                    class="rounded-circle shadow p-1 position-absolute start-50 top-0 translate-middle">
+                                <p>"I have been associated with Green Corner Advisory for the last 2 months,
+                                    joined the service of HNI Equity. As a trader <br>I am fully satisfied with the
+                                    services, support & research these guys are providing. Expecting the same kind
+                                    of support <br>in the future."</p>
+
+                                <div class="cc carousel-caption text-black text-center">
+                                    <h5 class="pt-1" style="color: #1c751d; font-size: 15px;">PRASHANT</h5>
+                                    <h6 class="pb-3" style="font-size: 13px;"><i class="fa fa-map-location"></i> NEW
+                                        DELHI</h6>
+                                    <!-- <p class="pt-0"></p> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!--Container End-->
+    </div><!--Clients close-->
+    <!--Clients Section End-->
+
+    <!--Need Section Start-->
+    <div class="need py-5 mb-5">
+        <div class="container">
+            <div class="section-title">
+                <h5 class="text-success text-center">Need Help?</h5>
+                <h4 class="text-center">GET A CALL BACK FROM OUR MARKET EXPERTS</h4>
+                <div class="border-bottom border-success border-2" style="width:50px; margin:auto;"></div>
+            </div>
+            <div class="row">
+                <div class="col-lg-5">
+                    <div class="NBlock mt-5">
+                        <div class="row">
+                            <div class="col-10 mx-auto">
+                                <div class="address mt-4">
+                                    <div class="row">
+                                        <div class="col-2">
+                                            <i class="bi bi-geo-alt mx-1"></i>
+                                        </div>
+                                        <div class="col-10">
+                                            <h6 class="text-uppercase fw-bold">Location:</h6>
+                                            <p>Green Corner Advisory, Sharjapur, Bangalore - 562125</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-10 mx-auto">
+                                <div class="email mt-4">
+                                    <div class="row">
+                                        <div class="col-2">
+                                            <a href="mailto:info@greencorneradvisory.com">
+                                                <i class="bi bi-envelope mx-1"></i>
+                                            </a>
+                                        </div>
+                                        <div class="col-10">
+                                            <h6 class="text-uppercase fw-bold">Email:</h6>
+                                            <p>info@greencorneradvisory.com</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-10 mx-auto">
+                                <div class="phone mt-4">
+                                    <div class="row">
+                                        <div class="col-2">
+                                            <a href="tel://+919122442032">
+                                                <i class="bi bi-phone mx-1"></i>
+                                            </a>
+                                        </div>
+                                        <div class="col-10">
+                                            <h6 class="text-uppercase fw-bold">Call:</h6>
+                                            <p>+91 9122442032</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-10 mx-auto">
+                                <div class="phone mt-4">
+                                    <div class="row">
+                                        <div class="col-2">
+                                            <a href="https://api.whatsapp.com/send?phone=919122442032&amp;text='Hi,%20I%20need%20to%20enquire%20about%20your%20services.'"
+                                                target="_blank">
+                                                <i class="bi bi-whatsapp mx-1"></i>
+                                            </a>
+                                        </div>
+                                        <div class="col-10">
+                                            <h6 class="text-uppercase fw-bold ">Whatsapp:</h6>
+                                            <p>+91 9122442032</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="NBlock mt-5">
+                        <form action="#" method="post" role="form" class="php-email-form">
+                            <div class="row formrow">
+                                <div class="form-group col-md-6 mt-4 ms-0">
+                                    <input type="text" name="name" class="form-control rounded-pill frminput" id="name"
+                                        placeholder="Your Name" required>
+                                </div>
+                                <div class="form-group col-md-6 mt-4 me-0">
+                                    <input type="email" class="form-control rounded-pill frminput" name="email" id="email"
+                                        placeholder="Your Email" required>
+                                </div>
+                            </div>
+                            <div class="row formrow">
+                                <div class="form-group col-md-6">
+                                    <input type="phone" class="form-control rounded-pill frminput" name="phone" id="phone"
+                                        placeholder="Your Number" required>
+                                </div>
+                                <div class="form-group col-md-6 mt-3 mt-md-0">
+                                    <div class="custom-select">
+                                        <select id="service" name="service" class="form-control frminput" required>
+                                            <!-- <div class="select-item"> -->
+                                            <option value="0">Select Service</option>
+                                            <option value="INTRADAY TIPS">INTRADAY TIPS</option>
+                                            <option value="STOCK OPTIONS">STOCK OPTIONS</option>
+                                            <option value="NIFTY TIPS">NIFTY TIPS</option>
+                                            <option value="HNI EQUITY">HNI EQUITY</option>
+                                            <option value="STOCK OPTIONS">STOCK OPTIONS</option>
+                                            <option value="COMMODITY PACK">COMMODITY PACK</option>
+                                            <option value="BASE METALS PACK">BASE METALS PACK</option>
+                                            <option value="BULLION METALS PACK">BULLION METALS PACK</option>
+                                            <!-- </div> -->
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group col-md-12 mt-3">
+                                <textarea class="form-control rounded-4" name="subject" id="subject" placeholder="Message" rows="4"
+                                    required></textarea>
+                            </div>
+                            <div class="text-center">
+                                <button type="submit">Submit</button>
+                            </div>
+                        </form>
+                    </div><!--NBlock close-->
+                </div>
+            </div><!---row close-->
+        </div><!---container close-->
+    </div><!---need close-->
+    <!--Need Section End-->
+
+    <!--Capital Section Start-->
+    <div class="capital py-3">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-11 cp m-auto mt-3 mb-4">
+                    <p> Green Corner Advisory is the symbol of trust, prosperity and courage. We enable scalable
+                        growth
+                        by
+                        leveraging stock market intelligence and analytics, exercising judicious investment with
+                        risk
+                        appetite,
+                        operating effectively to deliver business outcome. We also believe that the people entering
+                        into
+                        stock market are aware of the risk and returns involved with investment in stock market.And
+                        with
+                        our
+                        time and tested financial models to generate high quality <br>signals we ensure that the
+                        investment made by
+                        the clients grow by the leaps and bounds for their prosperity. This makes us complete stock
+                        market <br>advisors.
+                    </p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="capitalrisk">
+                        <h5 class="text-center text-uppercase pt-4 fw-900" style="color: #4e4039;">Capital @ Risk
+                        </h5>
+                        <p class="text-center pt-3">With investment, your capital is at risk. Investing/Trading is
+                            subject to market risk. Please
+                            read all
+                            the <br>documents before investing.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Capital Section End-->
+
+     <!----Whatsapp Section Start-->
+    <div class="whatsappLink">
+        <a href="https://api.whatsapp.com/send?phone=919122442032&amp;text='Hi,%20I%20need%20to%20enquire%20about%20your%20services.'"
+            target="_blank">
+            <img class="imageLinkFit animated" src="assest/img/whatsapp.svg" alt="whatsapp logo">
+        </a>
+    </div>
+    <a href="javascript:void()" class="sticky-bottom d-flex float-end back-to-top">
+        <i class="text-light fas fa-arrow-up px-3 py-3 bg-success rounded-3"
+            style="margin-right: 10px; margin-bottom: 10px;"></i>
+    </a>
+    <!----Whatsapp Section End-->
+
+    <!----Footer Section Start-->
+    <footer class="footer-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 footer-contact pb-5">
+                    <img src="assest/img/footer_logo.png" alt="flogo" width="150px">
+                    <p>
+                        Green Corner Advisory is the symbol of trust, prosperity and courage.
+                    </p>
+                    <p class="fs-6 fw-bold">Follow us on</p>
+                    <div class="social-links mt-3 justify-content-evenly">
+                        <a href="javascript:void(0)" class="twitter"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.facebook.com" class="facebook"><i
+                                class="fa-brands fa-facebook-f"></i></i></a>
+                        <a href="https://www.instagram.com" class="instagram"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://wa.me/919122442032" class="whatsapp"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="javascript:void(0)" class="linkedin"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 footer-links">
+                    <h4 class="head">Useful Links</h4>
+                    <ul>
+                        <li><i class="fa-solid fa-chevron-right" style="color: #c6c6c6;"></i> <a
+                                href="index.html">Home</a></li>
+                        <li><i class="fa-solid fa-chevron-right" style="color: #c6c6c6;"></i> <a href="about.html">About
+                                us</a></li>
+                        <li><i class="fa-solid fa-chevron-right" style="color: #c6c6c6;"></i> <a
+                                href="research.html">Research</a></li>
+                        <li><i class="fa-solid fa-chevron-right" style="color: #c6c6c6;"></i> <a
+                                href="services.php">Services</a></li>
+                        <li><i class="fa-solid fa-chevron-right" style="color: #c6c6c6;"></i> <a
+                                href="terms.php">Disclaimer</a></li>
+                        <li><i class="fa-solid fa-chevron-right" style="color: #c6c6c6;"></i> <a
+                                href="privacy_policy.php">Privacy policy</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 footer-links">
+                    <h4 class="head">Our Services</h4>
+                    <ul>
+                        <li><i class="fa-solid fa-chevron-right" style="color: #c6c6c6;"></i> <a
+                                href="services.php">Equity Cash</a></li>
+                        <li><i class="fa-solid fa-chevron-right" style="color: #c6c6c6;"></i> <a
+                                href="services.php">Stock Options</a></li>
+                        <li><i class="fa-solid fa-chevron-right" style="color: #c6c6c6;"></i> <a
+                                href="services.php">Bank Nifty</a></li>
+                        <li><i class="fa-solid fa-chevron-right" style="color: #c6c6c6;"></i> <a
+                                href="services.php">Stock Future</a></li>
+                        <li><i class="fa-solid fa-chevron-right" style="color: #c6c6c6;"></i> <a
+                                href="services.php">Commodity</a></li>
+                        <li><i class="fa-solid fa-chevron-right" style="color: #c6c6c6;"></i> <a
+                                href="services.php">Delivery</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 footer-links">
+                    <h4 class="head">Contact</h4>
+                    <ul>
+                        <li class="d-flex align-items-start">
+                            <i class="fa-solid fa-location-dot mt-1" style="color: #c6c6c6;"></i>
+                            <p> Green Corner Advisory, Sharjapur, Bangalore - 562125 </p>
+                        </li>
+                        <li style="margin-top: -13px;">
+                            <i class="fa-solid fa-phone-volume" style="color: #c6c6c6;"></i>
+                            <a href="tel://+919122442032"> +91 9122442032</a>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-envelope" style="color: #c6c6c6;"></i>
+                            <a href="mailto:info@greencorneradvisory.com">info@greencorneradvisory.com<br></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="copyright border-top py-3">
+        &copy; Copyright 2022 <strong><a href="index.php"> Green Corner Advisory</a></strong>. All Rights Reserved
+    </div>
+    <!----Footer Section End-->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/all.min.js"></script>
+    <!---use for icon-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
